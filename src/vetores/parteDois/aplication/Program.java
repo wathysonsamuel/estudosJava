@@ -17,7 +17,7 @@ public class Program {
             sc.nextLine();
             String name = sc.nextLine();
             double price = sc.nextDouble();
-            vect[i] = new Product(price, name);
+            vect[i] = new Product(price);
         }
 
         double soma = 0;

@@ -1,22 +1,11 @@
-package vetores.parteDois.entities;
+package exeFixacaoVetores.exeUM.entities;
 
 public class Product {
 
-    private String name;
     private double price;
-
 
     public Product(double price) {
         this.price = price;
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public double getPrice() {
