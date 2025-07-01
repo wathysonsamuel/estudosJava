@@ -17,7 +17,7 @@ public class Program {
         LocalDate d04 = LocalDate.parse("22-07-20"); // pega a String e transforma em objeto date
         LocalDateTime d05 = LocalDateTime.parse("22-07-20T01:30:26"); // pega a String e transforma em objeto dateTime
         Instant d06 = Instant.parse("22-07-20T01:30:26Z"); // data em horário de londres
-        Instant d07 = Instant.parse("22-07-20T01:30:26-03:00"); // transforma data e hora do brasil em horario de londres
+        Instant d07 = Instant.parse("22-07-20T01:30:26-03:00"); // transforma data e hora do Brasil em horario de londres
 
         LocalDate d08 = LocalDate.parse("20/07/22", fmt1);
         LocalDate d09 = LocalDate.parse("20/07/22 01:00", fmt2);
