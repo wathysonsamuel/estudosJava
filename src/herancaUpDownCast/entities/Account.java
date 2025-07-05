@@ -1,4 +1,4 @@
-package heranca.entities;
+package herancaUpDownCast.entities;
 
 public class Account {
     private Integer number;
